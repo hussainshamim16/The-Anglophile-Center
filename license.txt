@@ -1,0 +1,98 @@
+<div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+
+
+
+                    <div class="text">
+                        <img src="/images/hussain shamim web creater.jpg"
+                            alt="studentImages">
+                        <h1>Muhammad Hussain Shamim</h1>
+                        <p>TAC is one of the best and best institute that strives to fulfill the dreams of students.</p>
+                    </div>
+
+                </div>
+                <div class="swiper-slide">
+
+                    <div class="text">
+                        <img src="/images/bisma afzal.webp"
+                            alt="studentImages">
+                        <h1>Bisma Afzal</h1>
+                        <p>The educational expertise and understanding of TAC's teachers assist in reaching students' educational objectives.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="text">
+                        <img src="/images/sudaim.jpg"
+                            alt="studentImages">
+                        <h1>Sudaim Rashid</h1>
+                        <p>I have received education at TAC and I am now progressing better on my educational journey.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="text">
+                        <img src="/images/Rimsah Ali.jpg"
+                            alt="studentImages">
+                        <h1>Rimsah Ali</h1>
+                        <p>TAC has turned all my educational objectives into reality
+                            My teachers always assist me in my progress and understanding.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="text">
+                        <img src="/images/arzoo.jpg"
+                            alt="studentImages">
+                        <h1>Arzoo S</h1>
+                        <p>I am never unaware of the enthusiasm and encouragement within TAC.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="text">
+                        <img src="/images/danish.jpg"
+                            alt="studentImages">
+                        <h1>Danish Aslam</h1>
+                        <p>The attitude and determination of TAC's team enlightens my educational path.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="text">
+                        <img src="/images/Fatima.jpg"
+                            alt="studentImages">
+                        <h1>Fatima Ulfat</h1>
+                        <p>TAC has played an important role in enhancing my educational skills.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="text">
+                        <img src="/images/Syed Maaiz.jpg"
+                            alt="studentImages">
+                        <h1>Syed Maaiz</h1>
+                        <p>TAC's hard work has made my intellect better, and now I am on the path of my dreams.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+
+                    <div class="text">
+                        <img src="/images/awais.jpg"
+                            alt="studentImages">
+                        <h1>Hamza Ali</h1>
+                        <p>TAC has a significant role in actualizing my educational goals and TAC has made my educational journey impactful.</p>
+                    </div>
+                </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>

@@ -1,0 +1,54 @@
+
+
+:root{
+    --neutral-500: whitesmoke;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+nav .list ul li{
+    list-style: none;
+    margin-right: 20px;
+    color: white;
+}
+
+nav.icon i{
+    color: white;
+}
+
+p{
+    color: white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: white;
+    border-radius: 20px;
+}
+#night{
+    color: white;
+}
+
+.sec1 p{
+   
+    color: whitesmoke;
+    
+}
+
+.outH span{
+    color: whitesmoke;
+}
+.sec10 .text{
+    /* border: 1px solid red; */
+    width: 25%;
+    background-color: rgba(0, 132, 248, 0.514);
+    box-shadow: none;
+}
+
+.sec10 .teaching{
+        
+    color: rgb(255, 229, 157)
+    
+    
+    ;}

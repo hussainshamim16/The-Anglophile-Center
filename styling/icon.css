@@ -1,0 +1,9 @@
+header nav .icon i{    
+    font-size: 1.6rem;
+    color: var(--icons-border);
+    cursor: pointer;
+}
+
+header nav .icon i:hover{    
+    color: var(--accent);
+}
