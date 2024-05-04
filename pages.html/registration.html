@@ -37,6 +37,11 @@
 </head>
 
 <body>
+     <!--         loader     -->
+   <section class="load flex" id="loader">
+    <div class="loader"></div>
+</section>
+<!--  -->
    <!--         loader     -->
    <div class="nav2" id="secondNav">
       
@@ -111,11 +116,8 @@
 </section>
 <!-- section -->
    <!--  -->
-
-    
-
-    <section class="sec8 form">
-        <form class="flex">
+ <section class="sec8 form">
+        <form class="flex" id="myForm" method="post" action="" name="AngloPhilecenterstudentdata">
 
             <div class="section1">
 
@@ -175,6 +177,8 @@
             <button type="submit" class="buttons">submit</button>
         </form>
     </section>
+    
+
 
     <section class="section sec7 footer">
         <div class="text">
@@ -202,6 +206,23 @@
     </section>
 
     <script src="../js Flow/app.js"></script>
+      <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwCG5_OEiQrflUH_nw7veKWTx3ObsXZX0lh-TGM2ywi1u8KiOjd2nieDs2Jh4ctTBgv/exec'
+        const form = document.forms['AngloPhilecenterstudentdata']
+      
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => alert("Thank you! your form is submitted successfully.😊" ))
+            .then(() => {  window.location.reload(); })
+            .catch(error => console.error('Error!', error.message))
+        });
+        document.getElementById("myForm").addEventListener("submit", function(
+            
+        ) {
+  document.getElementById("loader").style.display = "flex";
+});
+      </script>
 </body>
 
 </html>
