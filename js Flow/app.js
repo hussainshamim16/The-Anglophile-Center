@@ -17,6 +17,29 @@ var loogo = document.getElementById("loogo")
 var st = document.getElementById("st")
 
 
+// loader 
+
+window.addEventListener("load", function() {
+  var loader = document.getElementById("loader");
+  loader.style.display = "flex"; // Display loader
+  setTimeout(function() {
+    loader.style.display = "none"; // Hide loader after 3 seconds (adjust as needed)
+  }, 1500);
+});
+
+
+  // Check if the browser is online or offline
+  window.addEventListener("online", function() {
+    document.getElementById("offline").style.display = "none";
+  });
+  
+  window.addEventListener("offline", function() {
+    document.getElementById("offline").style.display = "flex";
+    
+  });
+
+  
+
 function night(){
     
   style.href = "../styling/night.css"
@@ -100,7 +123,7 @@ sec0.style.display= "none";
   }
 
   function NumberSir(){
-alert("031728xx")
+alert("+92 3132811187");
   }
 
   document.getElementById("contactForm").addEventListener("submit", function(event){
@@ -112,3 +135,14 @@ alert("031728xx")
     window.location.href = "mailto:hj422748@gmail.com?subject=New%20Message&body=Email%20Address:%20" + email;
   });
 
+
+  // loader
+
+  
+
+  // iinternet connection
+
+
+
+  
+  
