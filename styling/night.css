@@ -9,14 +9,16 @@ body{
     color: white;
 }
 
+
+
 nav .list ul li{
     list-style: none;
     margin-right: 20px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 nav.icon i{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 p{
@@ -28,6 +30,11 @@ p{
 }
 #night{
     color: white;
+}
+header{
+    background-color: white;
+    color: black;
+    padding: auto;
 }
 
 .sec1 p{

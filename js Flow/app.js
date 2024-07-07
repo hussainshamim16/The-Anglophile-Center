@@ -43,37 +43,42 @@ window.addEventListener("load", function() {
 function night(){
     
   style.href = "../styling/night.css"
-    logo.src = "../images/logo 1 (2).png";
+    logo.src = "../images/logo psd.jpg";
     raat.style.display = "none"
     din.style.display = "flex"
+    din.style.color = "black"
 }
 function day(){
     document.body.style.backgroundColor = ""
     document.body.style.color = ""
 
-    logo.src = "../images/logo 1 (1).png";
+    logo.src = "../images/logo psd.jpg";
     style.href = ""
     din.style.display = "none"
     raat.style.display = "flex"
+    raat.style.color = "black"
 }
 
 // second nav
 
 function raaat(){
     
-    logo.src = "../images/logo 1 (2).png";
+    logo.src = "../images/logo psd.jpg";
     style.href = "../styling/night.css"
     niight.style.display = "none"
-    daay.style.display = "flex"
+     daay.style.display = "flex"
+     daay.style.color = "black"
+
 }
 function diin(){
     document.body.style.backgroundColor = ""
     document.body.style.color = ""
 
-    logo.src = "../images/logo 1 (1).png";
+    logo.src = "../images/logo psd.jpg";
     style.href = ""
     daay.style.display = "none"
     niight.style.display = "flex"
+    niight.style.color = "black"
 }
 
 var swiper = new Swiper(".mySwiper", {
@@ -89,18 +94,20 @@ var swiper = new Swiper(".mySwiper", {
 function shaam(){
     
   st.href = "./styling/night.css"
-    loogo.src = "./images/logo 1 (2).png";
+    loogo.src = "./images/logo psd.jpg";
     shhaam.style.display = "none"
     suubha.style.display = "flex"
+    shhaam.style.color = "black"
 }
 function subha(){
     document.body.style.backgroundColor = ""
     document.body.style.color = ""
 
-    loogo.src = "./images/logo 1 (1).png";
+    loogo.src = "./images/logo psd.jpg";
     st.href = ""
     suubha.style.display = "none"
     shhaam.style.display = "flex"
+    shhaam.style.color = "black"
 }
 
 
