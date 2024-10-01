@@ -21,11 +21,37 @@ var st = document.getElementById("st")
 
 window.addEventListener("load", function() {
   var loader = document.getElementById("loader");
-  loader.style.display = "flex"; // Display loader
-  setTimeout(function() {
-    loader.style.display = "none"; // Hide loader after 3 seconds (adjust as needed)
-  }, 1500);
+
+  // Check network connection speed
+  var connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+
+  // Function to check if connection is slow
+  function isConnectionSlow() {
+    return connection.effectiveType === '2g' || connection.effectiveType === 'slow-2g';
+  }
+
+  // Only show loader if the connection is slow
+  if (isConnectionSlow()) {
+    loader.style.display = "flex"; // Show loader
+    setTimeout(function() {
+      loader.style.display = "none"; // Hide loader after 1.5 seconds
+    }, 1500);
+  } else {
+    loader.style.display = "none"; // Hide loader for fast connections
+  }
 });
+
+// For browser compatibility (optional)
+if (navigator.connection) {
+  navigator.connection.addEventListener('change', function() {
+    if (isConnectionSlow()) {
+      loader.style.display = "flex";
+    } else {
+      loader.style.display = "none";
+    }
+  });
+}
+
 
 
   // Check if the browser is online or offline
